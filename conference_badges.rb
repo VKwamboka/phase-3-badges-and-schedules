@@ -12,8 +12,7 @@ puts batch_badge_creator(["vee","gabby"])
 def assign_rooms(speakers)
     # new_array = []
     speakers.each_with_index.map do |attendee, i|
-     
-         "Hello, #{attendee}! You'll be assigned to room #{i + 1}!"
+        "Hello, #{attendee}! You'll be assigned to room #{i + 1}!"
     end
 end
 puts assign_rooms(["vee", "gee","fee","vee", "gee","fee","vee", "gee","fee"])
